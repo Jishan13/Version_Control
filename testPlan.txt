@@ -1,0 +1,27 @@
+Testplan                                                   Jishan Desai and Yash Patel
+
+Testcase1: The purpose to make sure that the client gets port number and host stored in .Configure file for future commands 
+
+Testcase2: The purpose is to check if the create function is working fine and creates a .Manifest and .History files into server's project version. 
+Whatever the case might be is outputed on both server and client. 
+
+Testcase3: Here the purpose is to if a file is added correctly to the manifest
+
+Testcase4: The purpose is to check if program removes the file successfully from the manifest.
+
+Testcase5: The purpose is to check if program gives an error  if a non existent is been tried to remove
+
+Testcase6: The purpose is to check if commit works correctly if something extreme like all deletes are printed on STDOUT and written to .Commit, and whatever the result is
+           it is signified correctly.
+
+Testcase7: The purpose is to check if previously commit file is successfully pushed to the server or not. If it did, does output show up correctly and similarly otherway around
+
+Testcase8: The purpose is to check if the .History file is correctly given back from the server.
+
+Testcase9: The purpose is to check if the asked the project is correctly checked out. 
+
+Testcase10: The purpose is to check if program gets the currentversion from the client.
+
+Testcase11:  checks if update is workin fine.
+
+Other testcases not listed are to check if arguements provided are correct or incorrect and give output based on that.
